@@ -1,0 +1,29 @@
+{
+  "name": "surveybuilder",
+  "version": "1.0.0",
+  "description": "A survey building tool with react and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjuzly/SurveyBuilder.git"
+  },
+  "keywords": [
+    "survey",
+    "build",
+    "react",
+    "nodejs"
+  ],
+  "author": "zhouly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjuzly/SurveyBuilder/issues"
+  },
+  "homepage": "https://github.com/zjuzly/SurveyBuilder#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
