@@ -1,0 +1,10 @@
+{
+  "node": true,
+  "boss": true,
+  "curly": true,
+  "eqnull": true,
+  "latedef": true,
+  "noarg": true,
+  "undef": true,
+  "unused": true
+}

@@ -11,8 +11,8 @@
     "url": "git+https://github.com/zjuzly/SurveyBuilder.git"
   },
   "keywords": [
-    "survey",
-    "build",
+    "survey build",
+    "survey tool",
     "react",
     "nodejs"
   ],
@@ -23,7 +23,12 @@
   },
   "homepage": "https://github.com/zjuzly/SurveyBuilder#readme",
   "dependencies": {
+    "less": "^2.7.1",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.2"
   }
 }
