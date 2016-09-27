@@ -12,7 +12,7 @@ var MainHeader = React.createClass({
         return (
             <header className="main-header navbar container">
                 <div className="container-fluid">
-                    <Link to="list" className="navbar-brand logo">调查问卷制作工具</Link>
+                    <Link to="/" className="navbar-brand logo">调查问卷制作工具</Link>
                     <MainNav />
                 </div>
             </header>
