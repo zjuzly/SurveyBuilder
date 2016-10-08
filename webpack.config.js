@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     devtool: 'eval-source-map',
@@ -15,8 +17,14 @@ module.exports = {
             },
             {
                 test: /\.less$/,
-                loader: 'style!css!less'
-            }
+                // loader: 'style!css!less'
+                loader: ExtractTextPlugin.extract('style', 'css!less')
+            }/*,
+            {
+                test: /\.css$/,
+                loader:  ExtractTextPlugin.extract("style-loader","css-loader")
+            }*/
         ]
-    }
+    },
+    plugins: [new ExtractTextPlugin("main.css")]
 }

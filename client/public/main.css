@@ -1,0 +1,63 @@
+.app {
+  max-width: 1024px;
+  margin: auto;
+}
+.app .container-fluid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #696d75;
+  padding: 0 20px;
+}
+.app .container-fluid .navbar-brand {
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+}
+.app .container-fluid .main-nav {
+  display: flex;
+  font-size: 18px;
+}
+.app .container-fluid .main-nav .navbar {
+  display: flex;
+}
+.app .container-fluid .main-nav .navbar .tool-item {
+  display: flex;
+  padding: 0 5px 0 10px;
+}
+.app .container-fluid .main-nav .navbar .tool-item .tool-item-link {
+  text-decoration: none;
+  color: #fff;
+}
+.app .main-content {
+  display: flex;
+  flex-direction: row;
+}
+.app .main-content .sidebar {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+  padding: 15px;
+  width: 25%;
+  font-weight: bold;
+}
+.app .main-content .sidebar .list-question-title {
+  font-size: 26px;
+  color: #696d75;
+}
+.app .main-content .sidebar .list-question-style {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.app .main-content .sidebar .list-question-style li {
+  display: flex;
+  margin: 10px 0;
+  padding: 15px;
+  background: #4abfe2;
+  border-radius: 6px;
+}
+.app .main-content .sidebar .list-question-style li:last-child {
+  margin: 0;
+}
