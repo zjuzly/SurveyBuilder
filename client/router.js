@@ -2,6 +2,7 @@
  * Created by hzzhouliyang on 2016/9/23.
  */
 
+require('./styles/main.less');
 var React = require('react');
 var ReactDOM = require('react-dom');
 var ReactRouter = require('react-router');

@@ -4,10 +4,12 @@
 
 var React = require('react');
 
+var DragQuestion = require('./dragQuestion');
+
 var AddSurvey = React.createClass({
     render: function () {
         return (
-            <span>add survey......</span>
+            <DragQuestion />
         );
     }
 });

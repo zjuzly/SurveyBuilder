@@ -10,8 +10,8 @@ var MainNav = React.createClass({
         return (
             <nav className="main-nav">
                 <ul className="nav navbar">
-                    <li><Link to="list">问卷列表</Link></li>
-                    <li><Link to="add">制作调查问卷</Link></li>
+                    <li className="tool-item"><Link to="list">问卷列表</Link></li>
+                    <li className="tool-item"><Link to="add">制作调查问卷</Link></li>
                 </ul>
             </nav>
         );
