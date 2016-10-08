@@ -11,11 +11,14 @@ var DragQuestion = React.createClass({
     },
     render: function () {
         return (
-            <ul className="modules list-question-style">
-                <li><DragButton text="Yes / No" questionType="yes_no"/></li>
-                <li><DragButton text="Multiple choice" questionType="multiple_choice"/></li>
-                <li><DragButton text="Essay" questionType="essay"/></li>
-            </ul>
+            <div className="modules sidebar">
+                <span className="list-question-title">题目类型</span>
+                <ul className="list-question-style">
+                    <li><DragButton text="单选题" questionType="yes_no"/></li>
+                    <li><DragButton text="多选题" questionType="multiple_choice"/></li>
+                    <li><DragButton text="问答题" questionType="essay"/></li>
+                </ul>
+            </div>
         );
     }
 });

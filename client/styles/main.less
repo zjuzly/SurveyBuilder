@@ -5,24 +5,58 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    background: #696d75;
+    padding: 0 20px;
+    .navbar-brand {
+      text-decoration: none;
+      color: #fff;
+      font-size: 26px;
+    }
     .main-nav {
       display: flex;
+      font-size: 18px;
       .navbar {
         display: flex;
-        li {
+        .tool-item {
           display: flex;
           padding: 0 5px 0 10px;
+          .tool-item-link {
+            text-decoration: none;
+            color: #fff;
+          }
         }
       }
     }
   }
   .main-content {
-    .list-question-style {
+    display: flex;
+    flex-direction: row;
+    .sidebar {
+      display: flex;
       flex-direction: column;
-      padding-left: 0;
-      li {
+      background: #f2f2f2;
+      padding: 15px;
+      width: 25%;
+      font-weight: bold;
+      .list-question-title {
+        font-size: 26px;
+        color: #696d75;
+      }
+      .list-question-style {
         display: flex;
-        padding: 10px 0;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        li {
+          display: flex;
+          margin: 10px 0;
+          padding: 15px;
+          background: #4abfe2;
+          border-radius: 6px;
+          &:last-child {
+            margin: 0;
+          }
+        }
       }
     }
   }
